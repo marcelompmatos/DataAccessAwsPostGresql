@@ -1,6 +1,7 @@
 --Para consumir DataAccessAwsPostGresql
 
 Criar um arquivo "appsettings.json" no projeto 
+```json
 {
   "Region": "sa-xxxx-1",
   "SecretsManager": {
@@ -10,7 +11,7 @@ Criar um arquivo "appsettings.json" no projeto
     "Password": "xxxx"
   }
 }
-
+```
 
 criar uma classe
 ```csharp
