@@ -13,6 +13,7 @@ Criar um arquivo "appsettings.json" no projeto
 
 
 criar uma classe
+```csharp
 public class DependencyInjection
 {
     internal static IServiceProvider ResolveDependencies()
@@ -45,7 +46,7 @@ public class DependencyInjection
         return services.BuildServiceProvider(); 
     }
 }
-
+```
 Chamar na lambda 
 
 private readonly IServiceProvider _serviceProvider;
