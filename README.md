@@ -50,9 +50,11 @@ public class DependencyInjection
 ```
 Chamar na lambda 
 
+```csharp
 private readonly IServiceProvider _serviceProvider;
 
 public Function()
 {
    _serviceProvider = DependencyInjection.ResolveDependencies();
 }
+```
