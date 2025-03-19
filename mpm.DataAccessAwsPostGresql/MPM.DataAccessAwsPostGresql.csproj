@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <PackageId>DataAccessAwsPostGreSql</PackageId>
+    <Version>1.0.2</Version>
+    <Authors>Marcelo Matos</Authors>
+    <Company>MPM</Company>
+    <Description>Pacote NuGet para conexão com PostgreSQL AWS, usando Npgsql e AWS Secrets Manager.</Description>
+    <RepositoryUrl>https://github.com/marcelompmatos/MPM.DataAccessAwsPostGresql</RepositoryUrl>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.SecretsManager" Version="3.7.400.114" />
+    <PackageReference Include="AWSSDK.SecretsManager.Caching" Version="1.0.6" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.3" />
+    <PackageReference Include="Npgsql" Version="9.0.3" />
+  </ItemGroup>
+
+</Project>
